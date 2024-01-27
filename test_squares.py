@@ -11,3 +11,7 @@ def test_squares_to_odd_51():
 
 def test_squares_to_odd_396():
     assert squares_to_odd(100, 98) == "396, [197, 199]"
+
+
+def test_squares_to_odd_199():
+    assert squares_to_odd(100, 99) == "199, [199]"

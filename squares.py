@@ -1,2 +1,3 @@
 def squares_to_odd(a, b):
-    pass
+    total = (a*a) - (b*b)
+    return total
